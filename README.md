@@ -1,6 +1,6 @@
 # Dogan Butik
 
-Sayfaya linkden ulaşabilirsiniz 👉 (https://dgnburak.github.io/butik/)
+[Sayfaya linkden ulaşabilirsiniz 👉](https://dgnburak.github.io/butik/)
 
 # Anasayfa
 
