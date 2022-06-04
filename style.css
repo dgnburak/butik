@@ -1,0 +1,90 @@
+.kart {
+    filter: grayscale(100%);
+    transition: 0.5s all;
+}
+
+.kart:hover {
+    filter: grayscale(0%);
+    cursor: pointer;
+    transform: scale(1.1);
+    /* content: url("img/k-3.jpg"); */
+
+}
+
+.yazi {
+    height: 10%;
+    line-height: 50px;
+    opacity: 0;
+    position: absolute;
+    top: 100%;
+    /* left: 7%; */
+    font-family: sans-serif;
+    font-size: 2.5rem;
+    color: white;
+    background: black;
+    width: 95%;
+    text-align: center;
+    transition: all .4s ease;
+    font-family: 'Blaka', cursive;
+    
+    
+}
+
+
+.t-1 {
+    position: relative;
+    overflow: hidden;
+}
+
+
+.t-1:hover>.yazi {
+    opacity: 1;
+    top: 90%;
+    
+}
+
+
+.second-img {
+    display: none;
+    width: 100%;
+}
+
+.t-1:hover>.primary-img {
+    display: none;
+}
+
+.t-1:hover>.second-img {
+    display: block;
+}
+.btn-dark{
+    padding: 10px;
+    background-color: white;
+    color: black;
+}
+.btn-dark:active{
+    background-color: black;
+    
+}
+.btn-warning{
+    background-color: white;
+    font-family: sans-serif;
+    
+}
+.btn-dark:hover{
+    transition: all 1s;
+}   
+.baglantı{
+    text-decoration: none;
+    color: white;
+}
+.logo:hover{
+    color: lightblue;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.logo1{
+    max-width: 50%;
+}
